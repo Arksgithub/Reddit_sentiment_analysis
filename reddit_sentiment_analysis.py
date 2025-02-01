@@ -4,8 +4,8 @@ from textblob import TextBlob
 from collections import Counter
 
 # Initialize Reddit API client (replace with your credentials)
-reddit = praw.Reddit(client_id='TaTUgpWKmFNdqt2CJpHIlg',
-                     client_secret='UPoheGVyTyqYSzVdS6xd4qqo10GixQ',
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
                         user_agent='Reddit Data Analysis')
 
 # Function to fetch top posts from a subreddit
